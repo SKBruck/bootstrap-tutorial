@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Tutorial Blog</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Sarah Bruckler">
+    <meta name="description" content="Bootstrap Tutorial 1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="navbar-brand">Bootstrap Tutorial
+          </a>
+          <a class="btn btn-primary navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse navHeaderCollapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Test 1</a></li>
+            <li><a href="#">Test 2</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Test 3 <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">DropTest 1</a></li>
+                <li><a href="#">DropTest 2</a></li>
+                <li><a href="#">DropTest 3</a></li>
+              </ul>
+            </li>
+            <li class="active"><a href="blog.html">Test Blog</a></li>
+            <li><a href="#contact" data-toggle="modal">Contact Modal</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="page-header">
+                <h3>Article Title</h3>
+              </div>
+              <img src="img/goats.jpg" class="featureImg" width="100%">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis purus sagittis purus eleifend, quis tincidunt eros eleifend. Nulla in dolor nec nulla varius molestie sed et ante. Sed varius velit a libero consectetur commodo. Pellentesque suscipit, justo id aliquet lacinia, dolor lacus bibendum ipsum, molestie rhoncus nibh urna quis lacus. Nunc volutpat, tortor non pulvinar sagittis, nibh mauris interdum urna, vitae venenatis magna massa efficitur sem. Nullam purus ipsum, sodales nec metus sit amet, auctor fringilla sapien. Quisque lobortis, massa a convallis tempus, metus urna malesuada diam, nec eleifend lectus justo ut lorem. Pellentesque nisi velit, ultricies vel fermentum nec, lobortis a sem. Nullam risus magna, interdum ornare placerat ac, sodales sollicitudin massa. Sed vitae purus finibus, ullamcorper tellus maximus, sagittis arcu.</p>
+              <h4>Heading 1</h4>
+              <p>Curabitur iaculis vestibulum sapien, egestas eleifend enim malesuada nec. Sed a lacinia leo, quis porttitor justo. Duis rhoncus nibh ex, et pellentesque mi feugiat eu. Vestibulum ac porttitor turpis. Integer at tristique tellus. Integer molestie non metus eu interdum. Quisque nunc mauris, euismod a urna quis, feugiat vestibulum dolor. Etiam porta tortor ac eros dictum, nec posuere mauris pellentesque. Duis aliquet lorem nec diam maximus placerat. Cras lacinia venenatis eros in suscipit. Vivamus consectetur diam in lorem scelerisque feugiat. Vivamus eget ultricies mi. In hac habitasse platea dictumst. Sed tempor nisi at blandit porttitor. Phasellus cursus eu odio a laoreet. Morbi et dignissim felis. Integer eu fringilla justo, quis egestas ipsum. Suspendisse bibendum tortor lectus, sit amet rutrum ante semper sed. Aenean molestie luctus pharetra.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="list-group">
+            <a href="#" class="list-group-item active">
+              <h4 class="list-group-item-heading">List Item 1</h4>
+              <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </a>
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">List Item 2</h4>
+              <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </a>
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">List Item 3</h4>
+              <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </a>
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">List Item 4</h4>
+              <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </a>
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">List Item 5</h4>
+              <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </a>
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">List Item 6</h4>
+              <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </a>
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">List Item 7</h4>
+              <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar navbar-default navbar-fixed-bottom">
+      <div class="container">
+        <p class="navbar-text pull-left"><span class="glyphicon glyphicon-copyright-mark"></span>Copyright</p>
+        <a href="#" class="navbar-btn btn btn-primary pull-right">Subscribe</a>
+      </div>
+    </div>
+
+    <div class="modal fade" id="contact" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <form class="form-horizontal">
+            <div class="modal-header">
+              <h4>Contact</h4>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="contact-name" class="col-lg-2 control-label">Name</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="contact-email" class="col-lg-2 control-label">Email</label>
+                <div class="col-lg-10">
+                  <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="contact-msg" class="col-lg-2 control-label">Message</label>
+                <div class="col-lg-10">
+                  <textarea class="form-control" id="contact-msg" placeholder="Click to type message..." rows="8"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#" class="btn btn-danger" data-dismiss="modal">Cancel</a>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
